@@ -46,8 +46,6 @@ While testing an application that has been deployed on the AWS AutoScaling Group
 
 - This helped the Clients to be prepared for the peak load to set the required number of instances, instances with high specifications and adjust accordingly in PROD to overcome the peak load.
 
-
-
 	Example 2:
 
 - An application had performance issues with respect to the resource utilization, as it couldn't handle the expected load. As part of performance, I suggested to either have high-spec application server or to add another application server to handle and balance the expected load. This is because there were no functionality or code took too long for processing.
