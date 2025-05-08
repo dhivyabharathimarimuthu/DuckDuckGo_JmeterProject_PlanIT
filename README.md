@@ -68,17 +68,17 @@ took too long for processing.
 **3. As well as creating a script in a tool to do the performance testing, what other factors would
 need to be considered for a performance testing engagement?**
 
-	As part of performance testing engagement, we have to the stages of performance testing life cycle. 
+As part of performance testing engagement, we have to the stages of performance testing life cycle. 
 
-	Gather and understand Non functional requirements (NFR) from the business team/analyst for the application infrastructure details, performance critical txns, peak load, SLAs for Response time, etc. Analyze these NFRs and create a NFR document consisting of these details. Also, get the project timelines to estimate the testing efforts. If working in an Agile model, ensure that we need to understand the complexity of application testing and efforts are to be planned accordingly with the number of resources (performance tester available to test in order to complete the testing and having some buffer period allocated to handle unknown risks/defects associated with the application under test or with the testing tools, etc. 
+Gather and understand Non functional requirements (NFR) from the business team/analyst for the application infrastructure details, performance critical txns, peak load, SLAs for Response time, etc. Analyze these NFRs and create a NFR document consisting of these details. Also, get the project timelines to estimate the testing efforts. If working in an Agile model, ensure that we need to understand the complexity of application testing and efforts are to be planned accordingly with the number of resources (performance tester available to test in order to complete the testing and having some buffer period allocated to handle unknown risks/defects associated with the application under test or with the testing tools, etc. 
 	
- 	Based on the complexity of testing, we can breakdown the feature into user stories with story points defined, mapping them to the sprint and executing and delivering the work.
+Based on the complexity of testing, we can breakdown the feature into user stories with story points defined, mapping them to the sprint and executing and delivering the work.
 	
-	Once NFRs are gathered, determine the test plan/strategy that includes the application architecture, environment details, resources needed, tools to be used, test data, workload modelling, identifying the dependencies and risks associated, test types to be performed (Ex. load test, stress test, endurance test, etc) , scope of testing, etc.
+Once NFRs are gathered, determine the test plan/strategy that includes the application architecture, environment details, resources needed, tools to be used, test data, workload modelling, identifying the dependencies and risks associated, test types to be performed (Ex. load test, stress test, endurance test, etc) , scope of testing, etc.
 
-	Create the test scripts and execute the test using the performance testing tools with the appropriate workload and ensure that we have covered the necessary test types (Ex. load test, stress test, endurance test, etc) as defined in the test plan. Monitor the test using monitoring tools and collect the results for further analysis to determine the application's performance.
+Create the test scripts and execute the test using the performance testing tools with the appropriate workload and ensure that we have covered the necessary test types (Ex. load test, stress test, endurance test, etc) as defined in the test plan. Monitor the test using monitoring tools and collect the results for further analysis to determine the application's performance.
 
-	We need to keep the Client updated with the testing status and make sure that we don't give any surprises at the end. Deliver the outcomes on the work done at each PTLC phase, so that everyone remains on the same page and discuss	for any dependencies or risks that might affect the testing cycle. Provide the detailed analysis indicating the Key performance indicators (KPIs) and identify if there could be any perfromance issues that might occur and provide performance suggestions to overcome the issue.
+We need to keep the Client updated with the testing status and make sure that we don't give any surprises at the end. Deliver the outcomes on the work done at each PTLC phase, so that everyone remains on the same page and discuss	for any dependencies or risks that might affect the testing cycle. Provide the detailed analysis indicating the Key performance indicators (KPIs) and identify if there could be any perfromance issues that might occur and provide performance suggestions to overcome the issue.
 
  
 
