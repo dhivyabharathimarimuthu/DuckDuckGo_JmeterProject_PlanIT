@@ -34,8 +34,6 @@ Please state your involvement in each of the processes.**
 
 While testing an application that has been deployed on the AWS AutoScaling Group, I observed poor performance and scalability issue.
 
-Overview of Application under test:
-
 - The Auto Scaling Group was defined with 12 initial application instances (active) and can scale up to 60 application instances based on the incoming load and treshold has been set at 40% resource utilization to scale down and 60% utilization to scale up. This was defined in a way that the instances can scale up/ down based on the traffic/load, where AWS lambda functions have been implemented to support this functionality. There was a step function that will be triggered if an instance scales up or down.
 
 - To execute this test scenario, the load has been increased/decreased eventually in order to scale up (to 60 insatnces) or down the application instances and also run at steady state TPS whenever a new instance is up/down to observe the behavior of the individual instance and all the active instances of Auto Scaling Group as a whole.
