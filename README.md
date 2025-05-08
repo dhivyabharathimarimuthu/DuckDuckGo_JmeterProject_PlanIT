@@ -1,10 +1,10 @@
 # DuckDuckGo_JmeterProject_PlanIT
 
-**1. You have a requirement which states
+****1. You have a requirement which states
 "The system should scale to 2000 users".
 
 a.) What other questions would you need to ask in order to get enough information to create
-a workload model.**
+a workload model.****
 
 - Get the application architecture and the components involved for testing (In Scope and Out of Scope). Also, ask if the application is already in PROD or a new one (which needs to be baselined)
 - Ask for the peak load, TPS/TPH, users, SLAs for Response time, Business/Performance critical transactions to be performance tested
