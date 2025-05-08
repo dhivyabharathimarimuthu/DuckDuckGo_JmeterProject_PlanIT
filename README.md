@@ -6,10 +6,10 @@
 a.) What other questions would you need to ask in order to get enough information to create
 a workload model.**
 
-	--> Get the application architecture and the components involved for testing (In Scope and Out of Scope). Also, ask if the application is already in PROD or a new one (which needs to be baselined)
-	--> Ask for the peak load, TPS/TPH, users, SLAs for Response time, Business/Performance critical transactions to be performance tested
-	--> Gather PROD environment details  for the number of application servers and peak load observed in PROD, if it's an existing application already deployed in PROD.
-	--> Understand the PROD behavior to analyze if 2000 users a rethe maximum users or they all are accessing the application all time 
+- Get the application architecture and the components involved for testing (In Scope and Out of Scope). Also, ask if the application is already in PROD or a new one (which needs to be baselined)
+- Ask for the peak load, TPS/TPH, users, SLAs for Response time, Business/Performance critical transactions to be performance tested
+- Gather PROD environment details  for the number of application servers and peak load observed in PROD, if it's an existing application already deployed in PROD.
+- Understand the PROD behavior to analyze if 2000 users a rethe maximum users or they all are accessing the application all time 
 		
 **b.) Can you re-write the requirement so that it is more descriptive and testable. (You can use
 made up values.)**
@@ -30,7 +30,7 @@ c. How was it resolved
 d. How was the resolution proven
 Please state your involvement in each of the processes.**
 
-#Example 1:
+	Example 1:
 
 While testing an application that has been deployed on the AWS AutoScaling Group, I observed poor performance and scalability issue.
 
@@ -58,7 +58,7 @@ This helped the Clients to be prepared for the peak load to set the required num
 
 
 
-#Example 2:
+	Example 2:
 
 An application had performance issues with respect to the resource utilization, as it couldn't handle the expected load. As part of performance, I suggested 
 to either have high-spec application server or to add another application server to handle and balance the expected load. This is because there were no functionality or code 
